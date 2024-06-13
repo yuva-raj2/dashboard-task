@@ -1,0 +1,92 @@
+:root{
+    --primary-color:grey;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    padding: 2rem !important;
+}
+.logo{
+  border-radius: 20px;
+  width: 60px;
+  height: 50px;
+}
+.heading{
+    flex-direction:row-reverse;
+}
+.head{
+    margin-right: 1rem;
+}
+.dash{
+    margin-left: 2rem;
+}
+.dashboard{
+    height:7vh;
+    padding-left: 2rem;
+}
+.form-float{
+    background-color: white;
+    width: 10rem;
+    height: 7vh;
+}
+.floatingSelectGrid{
+    padding:1rem;
+}
+.form:hover{
+    border-radius:5px solid red;
+}
+#formselection{
+    height: 7vh;
+}
+#pro{
+    display: flex;
+    margin-top: 3rem;
+}
+.profile-name{
+    color: blue;
+}
+.pro-logo{
+    border-radius: 20px;
+}
+.form-validate{
+    margin-left: 4rem !important;
+}
+.welcome{
+    margin-left: 2rem;
+}
+@media screen and (max-width:320px){
+  #formselection{
+    width: 13.4rem;
+  }
+  .form-validate{
+    margin-left:2.2rem !important;
+  }
+  .form-float{
+    width: 13.4rem;
+  }
+}
+@media screen and (max-width:375px){
+    #formselection{
+      width: 13.4rem;
+    }
+    .form-validate{
+      margin-left:2.2rem !important;
+    }
+    .form-float{
+      width: 13.4rem;
+    }
+}
+@media screen and (min-width:425px){
+    #formselection{
+      width: 13.4rem;
+    }
+    .form-validate{
+      margin-left:2.2rem !important;
+    }
+    .form-float{
+      width: 13.4rem;
+    }
+}
